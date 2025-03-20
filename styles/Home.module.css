@@ -1,0 +1,9 @@
+.nextlink{
+  text-transform: uppercase;
+  color: black;
+  font-family: 'Oswald', sans-serif; 
+  transition-duration: 0.2s;
+}
+.nextlink:hover{
+  color: orange;
+}
