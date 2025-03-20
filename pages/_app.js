@@ -48,10 +48,10 @@ export default function App({ Component, pageProps }) {
           <title>VK Jyot</title>
           <meta name="description" content="Jyot official webiste" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          {/* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="manifest" href="/site.webmanifest" /> */}
+<link rel="manifest" href="/site.webmanifest" />
         </Head>
         <LoadingBar color="#f11946" progress={progress} onLoaderFinished={() => setProgress(0)} />
     <ChakraProvider>
