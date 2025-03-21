@@ -119,9 +119,11 @@ const MobileNavbar = () => {
   </AccordionItem>
   </Accordion>
 
-  
-                        <Link  onClick={onClose} className={styles.nextlink} textTransform={"uppercase"} href="/podcast" fontFamily={'Oswald, sans-serif'} color="black" _hover={{ textDecoration: "none", color: "orange" }}>
+  <Link  onClick={onClose} className={styles.nextlink} textTransform={"uppercase"} href="/podcast" fontFamily={'Oswald, sans-serif'} color="black" _hover={{ textDecoration: "none", color: "orange" }}>
                           Podcast
+                        </Link>
+                        <Link  onClick={onClose} className={styles.nextlink} textTransform={"uppercase"} href="/videos" fontFamily={'Oswald, sans-serif'} color="black" _hover={{ textDecoration: "none", color: "orange" }}>
+                          Videos
                         </Link>
                         <Link  onClick={onClose} className={styles.nextlink} textTransform={"uppercase"} href="/letters-of-jainacharya-on-world-order" fontFamily={'Oswald, sans-serif'} color="black" _hover={{ textDecoration: "none", color: "orange" }}>
                           Letters
